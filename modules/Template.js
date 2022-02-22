@@ -1,5 +1,3 @@
-import Book from './Book.js';
-
 function li1(title) {
   const li = document.createElement('li');
   li.className = 'book-title';
@@ -15,23 +13,7 @@ function li2(author) {
   return li;
 }
 
-function button(title) {
-  const book = new Book();
-  const button = document.createElement('button');
-  button.className = 'remove-button';
-  button.innerHTML = 'remove';
-
-  button.addEventListener("click", (e) => {
-    e.preventDefault();
-    book.RemoveBook(title);
-  });
-
-  return button;
-}
-
-
 export {
   li1,
   li2,
-  button,
-}
+};
