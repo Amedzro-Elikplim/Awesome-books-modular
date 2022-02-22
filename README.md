@@ -4,7 +4,7 @@
 
 > A simple Todo app to add list of books a user has read. It is implemented using JavaScript object, classes and modular architecture. A todo is saved and displayed in Realtime. A todo can be removed from the list of to-dos. Data persistence is implemented using local Storage API.
 
-![screenshot](./image.JPG)
+![screenshot](./Image.JPG)
 
 Additional description about the project and its features.
 
