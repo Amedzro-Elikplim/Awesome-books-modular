@@ -1,4 +1,4 @@
-import { ul, li1, li2, button } from './Template.js';
+import { li1, li2, button } from './Template.js';
 class Book {
   contructor() {
     this.data = 0;
