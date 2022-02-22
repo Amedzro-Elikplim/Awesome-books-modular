@@ -78,9 +78,19 @@ body {
   flex-wrap: wrap;
 }
 
+.date {
+  float: right;
+  margin-right: 20px;
+  margin-top: 10px;
+  font-family: Raleway, sans-serif;
+  font-size: x-large;
+  font-weight: 400;
+}
+
 .books-section {
   text-align: center;
   padding: 20px;
+  clear: right;
 }
 
 .book-title {
@@ -118,6 +128,7 @@ body {
   margin-left: auto;
   margin-right: auto;
   border-radius: 10px;
+  clear: right;
 }
 
 .form {
@@ -199,6 +210,7 @@ body {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  clear: right;
 }
 
 .contact-title {
