@@ -1,4 +1,5 @@
-import { li1, li2, button } from './Template.js';
+import { li1, li2 } from './Template.js';
+
 class Book {
   contructor() {
     this.data = 0;
@@ -34,12 +35,21 @@ class Book {
     const { title, author } = book;
     const ul = document.createElement('ul');
     const div = document.createElement('div');
+    const button = document.createElement('button');
 
     ul.className = 'list';
     div.className = 'list-div';
 
+    button.className = 'remove-button';
+    button.innerHTML = 'remove';
+
+    button.addEventListener('click', (e) => {
+      e.preventDefault();
+      this.RemoveBook(title);
+    });
+
     div.append(li1(title), li2(author));
-    ul.append(div, button(title));
+    ul.append(div, button);
 
     return ul;
   }
