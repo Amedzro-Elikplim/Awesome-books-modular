@@ -24,7 +24,6 @@ function button(title) {
   button.addEventListener("click", (e) => {
     e.preventDefault();
     book.RemoveBook(title);
-    console.log('hello')
   });
 
   return button;
