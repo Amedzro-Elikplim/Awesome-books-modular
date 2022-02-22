@@ -1,3 +1,275 @@
 * {
-    font-family: Raleway, sans-serif;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: rgb(214, 236, 255);
+}
+
+.header {
+  width: 100vw;
+}
+
+.logo {
+  font-family: Raleway, sans-serif;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100vw;
+  background-color: white;
+  padding: 20px;
+  box-shadow: 1px 1px 10px gray;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style-type: none;
+  gap: 60px;
+  margin-right: 70px;
+  font-family: Raleway, sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.nav-links {
+  cursor: pointer;
+}
+
+.link {
+  text-decoration: none;
+  color: rgb(51, 51, 51);
+}
+
+.link:hover {
+  color: rgb(67, 146, 250);
+}
+
+.list {
+  display: flex;
+  list-style-type: none;
+  background-color: white;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+  width: 30vw;
+  flex-wrap: wrap;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 1px 1px 5px rgb(100, 134, 245);
+  border-radius: 5px;
+  margin-top: 10px;
+  font-family: Raleway, sans-serif;
+  font-style: normal;
+}
+
+.list-div {
+  display: flex;
+  gap: 5px;
+  flex-shrink: 1;
+  flex-grow: 1;
+  flex-wrap: wrap;
+}
+
+.date {
+  float: right;
+  margin-right: 20px;
+  margin-top: 10px;
+  font-family: Raleway, sans-serif;
+  font-size: x-large;
+  font-weight: 400;
+}
+
+.books-section {
+  text-align: center;
+  padding: 20px;
+  clear: right;
+}
+
+.book-title {
+  font-weight: bold;
+  flex-grow: 1;
+  flex-shrink: 1;
+}
+
+.book-author {
+  font-style: italic;
+  flex-grow: 1;
+  flex-shrink: 1;
+}
+
+.remove-button {
+  border: none;
+  outline: none;
+  background-color: rgb(54, 159, 250);
+  color: white;
+  padding: 4px;
+  font-family: Kurale, sans-serif;
+  border-radius: 5px;
+  font-weight: bold;
+  box-shadow: 1px 1px 5px gray;
+  cursor: pointer;
+}
+
+.form-section {
+  text-align: center;
+  padding: 20px;
+  margin-top: 30px;
+  background-color: white;
+  box-shadow: 1px 1px 10px gray;
+  width: 40vw;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  clear: right;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-section div {
+  padding: 10px;
+}
+
+.new-book {
+  font-family: Raleway, sans-serif;
+  font-weight: bold;
+}
+
+.awesome-books {
+  font-family: Raleway, sans-serif;
+  font-weight: bold;
+  color: rgb(39, 38, 38);
+}
+
+.title {
+  box-shadow: 1px 1px 5px rgb(205, 206, 207);
+  border: 1px solid rgb(176, 215, 248);
+  outline: none;
+  width: 30vw;
+  flex-shrink: 1;
+  flex-grow: 1;
+  height: 30px;
+  padding: 5px;
+  font-family: Raleway, sans-serif;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.author {
+  border: 1px solid rgb(176, 215, 248);
+  box-shadow: 1px 1px 5px rgb(205, 206, 207);
+  outline: none;
+  width: 30vw;
+  flex-shrink: 1;
+  height: 30px;
+  padding: 5px;
+  font-family: Raleway, sans-serif;
+  font-weight: bold;
+}
+
+.title:hover {
+  box-shadow: 1px 1px 15px rgb(205, 206, 207);
+}
+
+.author:hover {
+  box-shadow: 1px 1px 15px rgb(205, 206, 207);
+}
+
+.add-button {
+  width: 20vw;
+  padding: 10px;
+  border: none;
+  background-color: rgb(48, 149, 238);
+  border-radius: 5px;
+  color: white;
+  font-weight: 300;
+  font-family: Raleway, sans-serif;
+  cursor: pointer;
+}
+
+.add-button:hover {
+  box-shadow: 1px 1px 15px rgb(106, 180, 245);
+}
+
+.contact-section {
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  clear: right;
+}
+
+.contact-title {
+  font-size: 50px;
+  font-family: Raleway, sans-serif;
+  font-weight: bolder;
+  margin: 20px;
+}
+
+.contact-message {
+  font-family: Raleway, sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.contact-information {
+  margin: 20px;
+}
+
+.info {
+  font-family: Raleway, sans-serif;
+  padding: 2px;
+}
+
+.footer {
+  width: 100vw;
+  height: 50px;
+  background-color: rgb(87, 174, 255);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+}
+
+.copyright {
+  margin-left: 20px;
+  font-family: Raleway, sans-serif;
+}
+
+@media (max-width: 768px) {
+  .form-section {
+    width: 80vw;
+  }
+
+  .title {
+    width: 70vw;
+  }
+
+  .author {
+    width: 70vw;
+  }
+
+  .add-button {
+    width: 50vw;
+  }
+
+  .list {
+    width: 60vw;
+  }
 }

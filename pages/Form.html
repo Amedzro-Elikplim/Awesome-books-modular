@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="preload"
+      as="style"
+      onload="this.onload = null; this.rel = 'stylesheet'"
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500&display=swap"
+    />
+    <link
+      rel="preload"
+      as="style" 
+      onload="this.onload = null; this.rel = 'stylesheet'"
+      href="https://fonts.googleapis.com/css2?family=Kurale&display=swap">
+    <title>Awesome Books</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <h2 class="logo">Awesome books</h2>
+        <ul class ="nav-list">
+          <li class="nav-link"><a class="link" href="../index.html">List</a></li>
+          <li class="nav-link"> <a class="link" href="./Form.html">Add New</a></li>
+          <li class="nav-link"> <a class="link" href="./Contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+     <section>
+      <div class="date"></div>
+    </section>
+
+    <section class="form-section">
+      <h1 class="new-book">Add a new book</h1>
+      <form class="form">
+        <div>
+          <label for="title"></label>
+          <input type="text" name="title" placeholder="title" class="title" id="title" />
+        </div>
+
+        <div>
+          <label for="author"></label>
+          <input type="text" name="author" placeholder="author" class="author" id="author" />
+        </div>
+
+        <div>
+            <label for="add"></label>
+            <button type="submit" name="add" class="add-button" id="add"> Save book </button>
+        </div>
+
+      </form>
+    </section>
+
+    <footer class="footer">
+       <p class="copyright">Copyright 2022, Amedzro Elikplim</p>
+    </footer>
+
+    <script type="module" src="../index.js"></script>
+  </body>
+</html>
+
+     
